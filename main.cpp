@@ -34,13 +34,29 @@ using namespace std;
 //     printDescending(n - 1);
 // }
 
-// Problem 4
+// // Problem 6
+// int countDigits(int n) {
+//     if (n == 0) return 0;
+//     return 1 + countDigits(n / 10);
+// }
 
-// Problem 4
+// // Problem 7
+// int sumOfDigits(int n) {
+//     if (n == 0) return 0;
+//     return (n % 10) + sumOfDigits(n / 10);
+// }
 
-// Problem 4
+// // Problem 8
+// int power(int x, int y) {
+//     if (y == 0) return 1;
+//     return x * power(x, y - 1);
+// }
 
-// Problem 4
+// // Problem 9
+// int reverseNumber(int n, int reversed = 0) {
+//     if (n == 0) return reversed;
+//     return reverseNumber(n / 10, reversed * 10 + (n % 10));
+// }
 
 // Problem 4
 
@@ -85,13 +101,41 @@ int main() {
     // cout << endl;
     // return 0;
 
-    // Problem 6
+    // // Problem 6
+    // int n;
+    // cout << "Enter a number to count its digits: ";
+    // cin >> n;
+    // if (n == 0) {
+    //     cout << "Number of digits: 1" << endl;
+    // } else {
+    //     cout << "Number of digits: " << countDigits(abs(n)) << endl;
+    // }
+    //
+    // return 0;
 
-    // Problem 7
+    // // Problem 7
+    // int n;
+    // cout << "Enter a number to compute the sum of its digits: ";
+    // cin >> n;
+    //
+    // cout << "Sum of digits: " << sumOfDigits(abs(n)) << endl;
+    //
+    // return 0;
 
-    // Problem 8
+    // // Problem 8
+    // int x, y;
+    // cout << "Enter base and exponent: ";
+    // cin >> x >> y;
+    //
+    // cout << x << "^" << y << " = " << power(x, y) << endl;
+    // return 0;
 
-    // Problem 9
+    // // Problem 9
+    // int n;
+    // cout << "Enter a number to reverse: ";
+    // cin >> n;
+    // cout << "Reversed number: " << reverseNumber(n) << endl;
+    // return 0;
 
     // Problem 10
 }
